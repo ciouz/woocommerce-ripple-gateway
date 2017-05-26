@@ -145,7 +145,7 @@ if (!class_exists('WcRipple')) {
 
 	            $xrp_price = round(RippleExchange::convert($currency, $price), 2, PHP_ROUND_HALF_UP);
 	            if ($xrp_price) {
-	                $new_price_string = $price_string . '&nbsp;(<span class="woocommerce-price-amount amount">' . $xrp_price . '&nbsp;</span><span class="woocommerce-price-currencySymbol">XPR)</span>';
+	                $new_price_string = $price_string . '&nbsp;(<span class="woocommerce-price-amount amount">' . $xrp_price . '&nbsp;</span><span class="woocommerce-price-currencySymbol">XRP)</span>';
 	                return $new_price_string;
 	            }
 	        }
